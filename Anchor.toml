@@ -1,1 +1,18 @@
 
+[programs.localnet]
+solana_explorer = "YourProgramID1234567890"
+
+[programs.devnet]
+solana_explorer = "YourProgramID1234567890"
+
+[registry]
+url = "https://anchor.project-serum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "anchor test"
+deploy = "anchor deploy"
+build = "anchor build"
