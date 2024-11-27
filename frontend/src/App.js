@@ -1,3 +1,10 @@
+import React from "react";
+import SearchBar from "./components/SearchBar";
+import TransactionCard from "./components/TransactionCard";
+import  WalletConnect from "./components/WalletConnect";
+import  VisualGraph from "./components/VisualGraph";
+import  Leaderboard from "./Leaderboard";
+
 import React, { useState } from "react";
 import { Connection, clusterApiUrl } from "@solana/web3.js";
 import { AnchorProvider, Program } from "@project-serum/anchor";
